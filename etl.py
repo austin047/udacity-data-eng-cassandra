@@ -11,8 +11,8 @@ def process_song_file(cur, filepath):
     to get the song and artist data info and used to populate the song and artist dimension tables.
 
     Arguments:
-        cur: the cursor object. 
-        filepath: song data file path. 
+        cur: the cursor object 
+        filepath: song data file path
 
     Returns:
         None
@@ -39,8 +39,8 @@ def process_log_file(cur, filepath):
     
 
     Arguments:
-        cur: the cursor object. 
-        filepath: log data file path. 
+        cur: the cursor object
+        filepath: log data file path 
 
     Returns:
         None
